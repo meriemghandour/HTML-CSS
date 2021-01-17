@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les listes en HTML</title>
+	<meta charset="utf-8">
+	<style>
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+        }
+
+        nav ul li {
+          float: left;
+        }
+
+        nav ul li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+
+        nav ul li a:hover {
+          background-color: #111111;
+        }
+    </style>
+</head>
+<body>
+
+	<h1>Un menu en utilisant les listes </h1>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">TP-introduction</a>
+			</li>
+			<li>
+				<a href="#">TP-Formattage</a>
+			</li>
+			<li>
+				<a href="#">TP-Liens</a>
+			</li>
+			<li>
+				<a href="#">TP-Listes</a>
+			</li>
+		</ul>
+	</nav>
+
+	<h1>Exemple d'usage avec l'élément detail </h1>
+	<details>
+		<summary>Plus d'information sur le produit</summary>
+		<ol>
+			<li>Date de fabrication : 01 janvier 2020</li>
+			<li>Numéro de lot : FSE0001</li>
+			<li>Date limite de consommation : 31 août 2022</li>
+		</ol>
+	</details>
+
+</body>
+</html
